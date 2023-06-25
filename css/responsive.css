@@ -40,6 +40,10 @@
         height: 100%;
         width: 100%;
     }
+
+    #auth{
+        height:200px;
+    }
   }
 
   
@@ -121,7 +125,7 @@
     
   }
 
-@media only screen and (max-width: 762px) {
+@media only screen and (max-width: 770px) {
     #intro{
         width: 85%;
     }
@@ -373,7 +377,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 90%;
-        margin-bottom: 250px;
+        margin-bottom: 270px;
     }
   }
 
@@ -404,7 +408,7 @@
         flex-direction: column;
         justify-content: space-between;
         width: 90%;
-        margin-bottom: 170px;
+        margin-bottom: 200px;
     }
     
     
