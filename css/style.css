@@ -6,12 +6,6 @@
 }
 
 
-
-
-
-
-
-
 * {
     box-sizing: border-box;
     padding: 0px;
@@ -574,5 +568,44 @@ iframe{
 #textContactBtn p{
     font-family: Helvetica, sans-serif;
     font-size: 20px;
+}
+
+
+#auth{
+    width:80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    height: 350px;
+}
+
+#authImg{
+    width: 45%;
+  
+}
+
+#authImg img{
+    height: 100%;
+    width: 100%;
+   
+}
+
+#authInfo{
+    display: flex;
+    justify-content: center;
+    word-wrap: break-word;
+    flex-direction: column;
+    background-color: #605E5E;
+    width: 55%;
+    align-items: flex-start;
+}
+
+.txtAuth{
+    font-size: 20px;
+    font-family:Helvetica, sans-serif;
+    color: #AEE06C;
+    margin: 20px 0px;
+    margin-left: 20px;
 }
 /*--------------------------SERVICE PAGE-------------------------*/
