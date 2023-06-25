@@ -1,0 +1,360 @@
+@media only screen and (max-width: 1320px) {
+    #intro{width: 80%;}
+
+    #tech{
+        width: 100%;
+    }
+
+    .titleTech{
+        text-align: center;
+    }
+
+    .pTech{
+        text-align: center;
+    }
+    .fafa{
+        width: 100%;
+        
+    }
+  }
+
+  @media only screen and (max-width: 1173px) {
+    .amazon img{
+        margin-right: 80px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .fafa{
+        width: 100%;
+        
+    }
+    .servImg{
+        height:55%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .servImg img{
+        height: 100%;
+        width: 100%;
+    }
+  }
+
+  
+  @media only screen and (max-width: 992px) {
+    #intro{
+        width: 70%;
+    }
+
+    .amazon img{
+        margin: 0px;
+    }
+
+    .partner{
+        margin-bottom: 40px;
+    }
+
+    .h2{
+        font-size: 65px;
+    }
+
+    nav ul{
+        margin:0px;
+    }
+
+    #buttonToSec a{
+        font-size: 70px;
+        text-decoration: none;
+        color: white;
+     }
+
+     #footerPosition{
+        width: 100%;
+     }
+
+     .iconAb{
+        justify-content: flex-start;
+        align-content: flex-end;
+        padding-left: 20px;
+        padding-bottom: 25px;
+     }
+
+     .appTitle{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    
+    .h4{
+        display: none;
+    }
+
+    .servImg{
+        height:60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .servImg img{
+        height: 80%;
+        width: auto;
+    }
+    
+    .secondPart{
+        display: contents;
+    }
+    
+  }
+
+@media only screen and (max-width: 762px) {
+    #intro{
+        width: 85%;
+    }
+
+    .h2{
+        font-size: 65px;
+    }
+
+    #buttonToSec a{
+        font-size: 70px;
+        text-decoration: none;
+        color: white;
+     }
+
+    #logoName{
+        font-size: 40px;
+    }
+
+    .fafa a i{
+        font-size: 35px;
+        color: #605E5E;
+    }
+    .menuFoot{
+        display: none;}
+
+    footer{
+        width:80%''
+    }
+    
+    #footerPosition{
+        width: 100%;
+    }
+
+    .footerItem{
+        width: 40%;
+    }
+
+    .fafa{
+        width: 70%;
+    }
+
+    .infoServ{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    #buttonContact{
+        width:60%;
+        text-align: center;
+        margin: 0px auto;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #conBtn{
+        width:70%;
+        color: #605E5E;
+        background-color: #AEE06C;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+        padding: 10px;
+    }
+    
+    #conBtn a{
+       color: #605E5E;
+       font-size: 30px;
+       
+        text-decoration: none;
+        font-family: Helvetica, sans-serif;
+    }
+    
+}
+
+
+@media only screen and (max-width: 640px) {
+    #intro{
+        width: 70%;
+    }
+
+    .h2{
+        font-size: 50px;
+    }
+
+    #buttonToSec a{
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+     }
+
+    .logoName{
+        margin-right: 40px;
+    }
+
+    #team{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tech123{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px auto;
+    }
+    
+    .person{
+        height: 600px;
+    }
+
+    .perImg{
+        height: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .services{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .service{
+        margin-top: 40px;
+    }
+
+    .infoServ{
+        width: 100%;
+        margin: 40px auto;
+    }
+
+    .secondPart{
+        display: none;
+    }
+
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    #intro{
+        width: 97%;
+        margin: 70px auto;
+    }
+
+    .h2{
+        font-size: 50px;
+    }
+
+    #buttonToSec a{
+        font-size: 60px;
+        text-decoration: none;
+        color: white;
+     }
+
+    #buttonToSec{
+        margin-top: 10px;
+    }
+
+    #about{
+        width: 90%;
+    }
+
+    .iconAb{
+        justify-content: flex-start;
+        align-content: flex-end;
+        padding-left: 20px;
+        padding-bottom: 25px;
+     }
+
+     .appTitle{
+        display: inline-block;
+        margin-left: 30px;
+    }
+    
+    .h4{
+        display: none;
+    }
+   
+
+    .footerItem{
+        width: 80%;
+    }
+
+    .footitem1{
+        display: none;
+    }
+
+    .fafa{
+        width: 100%;
+        justify-content: space-around;
+        margin: none;
+    }
+    .h5{
+        display: none;
+    }
+
+    .fafa a i{
+        font-size: 45px;
+        color: #605E5E;
+    }
+
+    .partners{
+        margin-bottom: 0px;
+    }
+
+    .partner{
+        margin-bottom: 60px;
+    }
+    #buttonContact{
+        width:90%;
+       
+    }
+
+    #conBtn{
+        width:100%;
+    }
+  }
+
+
+  @media only screen and (max-width: 377px) {
+    #intro{
+        width: 97%;
+        margin: 40px auto;
+    }
+
+    .h2{
+        font-size: 40px;
+    }
+
+
+    #buttonToSec a{
+        font-size: 50px;
+        text-decoration: none;
+        color: white;
+     }
+
+    #buttonToSec{
+        margin-top: 10px;
+    }
+
+    
+    
+
+  }
