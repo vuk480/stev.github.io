@@ -1,0 +1,426 @@
+
+@font-face {
+    font-family: "aveden";
+    src: url("../fonts/aveden.ttf");
+   
+}
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* header section start */
+
+#first{
+    width: 100%;
+    background-image: url('../images/pozadina.jpg');
+    height: auto;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    
+
+}
+
+
+.navbar-toggler-icon{
+    color: #AEE06C;
+    border: none;
+}
+
+
+.nav-link:hover{
+    color: #AEE06C;
+    transition: 0.5s ease-in
+}
+
+.nav-link:active{
+    color: #AEE06C;
+}
+header{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: 0px auto;
+    background: transparent;
+}
+
+
+.logoName{
+    font-size: 40px;
+    font-family: 'aveden',sans-serif;
+    text-decoration: none;
+    color: #AEE06C;
+    font-weight: bold;
+    margin-right: 150px;
+}
+
+
+nav{
+    width: 100%;
+}
+
+.navbar-custom .navbar-text {
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav ul{
+    list-style-type: none;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    align-self: flex-end;
+    margin-left: 50px;
+    
+}
+
+nav ul li{
+    color: white;
+    width: 25px;
+}
+
+.nav-item a{text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+
+
+
+
+#intro{
+    width: 60%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+    
+}
+
+.h2{
+    font-size: 80px;
+    color: white;
+    font-family:Helvetica, sans-serif;
+}
+
+#buttonToSec{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#buttonToSec a{
+   font-size: 80px;
+   text-decoration: none;
+   color: white;
+}
+
+/* header section end */
+
+/*second part start*/
+
+#second{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+#tech{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+.title{
+    width: 100%;
+    color: #605E5E;
+}
+
+.secTitle{
+    color: #605E5E;
+    margin-top: 80px;
+}
+
+.tech123{
+    width: 100%;
+    margin-top: 40px;
+}
+
+.tech1{
+    margin-bottom: 50px;
+}
+
+
+h3{
+    font-family:Helvetica, sans-serif;
+    color: #605E5E;
+    font-size: 20px;
+}
+
+span{
+    color: #AEE06C;
+}
+
+.titleTech{
+    margin-bottom: 30px;
+}
+
+.titleTech P{
+    font-family: helvetica,sans-serif;
+    color: #605E5E;
+}
+
+.pTech{
+    font-family: helvetica,sans-serif;
+    font-size: 17px;
+}
+
+
+/*second part end*/
+
+
+/*THIRD PART START*/
+
+#third{
+    width: 100%;
+    transform: skewY(3deg);
+    background-color: #AEE06C;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#about{
+    transform: skewY(-3deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+
+
+#infoAbout{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ab1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.iconAb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-bottom: 6px solid #605E5E;
+}
+
+.iconAb i{
+   font-size: 80px;
+   color: #605E5E;
+}
+
+.txtAb{
+    margin-top: 40px;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.txtAb p{
+    
+    color: #605E5E;
+    font-family:Helvetica, sans-serif;
+}
+.appTitle{
+    display: none;
+    font-size: 20px;
+    color: #605E5E;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+    word-wrap: break-word;
+}
+
+.h3{
+    font-size: 20px;
+    color: #605E5E;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+}
+
+.h4{
+    font-size: 20px;
+    color: #605E5E;
+    font-weight: bold;
+    font-family:Helvetica, sans-serif;
+}
+
+/*THIRD PART END*/
+
+/* FOURTH PART START*/
+
+#fourth{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#team{
+    width:90%;
+    margin: 0px auto;
+}
+
+#teamFaces{
+    margin-top: 40px;
+    width: 100%;
+}
+
+
+
+.person{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perImg{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.perImg img{
+    height: 100%;
+    width: auto;
+    border-radius:30% 70% 70% 30% / 30% 48% 52% 70% ;
+}
+
+.jane1 img{
+    border-radius: 69% 31% 32% 68% / 50% 13% 87% 50%;
+}
+.john img{
+    border-radius: 51% 49% 42% 58% / 50% 76% 24% 50%;
+}
+.jane2 img{
+    border-radius: 86% 33% 55% 38% / 63% 81% 36% 55% 
+}
+
+.fAndLName{
+    margin-top: 30px;
+    text-align: center;
+    font-family:Helvetica, sans-serif;
+}
+
+.lName{
+    border-bottom: #AEE06C 4px solid;
+}
+
+
+/*FOURTH PART END*/
+
+/*FOOTER*/
+
+footer{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    background-color: #AEE06C;
+}
+
+#footerPosition{
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    flex-direction: row;
+    padding-top: 50px;
+    color: #605E5E;
+}
+
+
+.menuFoot ul{
+    list-style-type:none ;
+    padding: 0px;
+}
+
+.menuFoot ul li{
+   padding-bottom: 5px;
+}
+
+.menuFoot ul li a{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    color: #605E5E;
+ }
+
+.footerItem{
+    border-top: #605E5E solid 3px;
+    width: 30%;
+    padding: 30px 0px;
+}
+
+.fafa a{
+    text-decoration: none;
+}
+
+.fafa a i{
+    font-size: 40px;
+    color: #605E5E;
+}
+
+.fafa{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.h5{
+    margin-bottom: 30px;
+}
+/*FOOTER*/
+
+
+
+
+
+/*--------------------------SERVICE PAGE-------------------------*/
+
+
+
+/*--------------------------SERVICE PAGE-------------------------*/
