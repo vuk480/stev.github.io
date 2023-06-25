@@ -581,14 +581,14 @@ iframe{
 }
 
 #authImg{
-    width: 45%;
-  
+    height: 100%;
+    width: auto;
 }
 
 #authImg img{
     height: 100%;
     width: 100%;
-   
+    border-radius: 51% 49% 42% 58% / 50% 76% 24% 50%;
 }
 
 #authInfo{
@@ -596,7 +596,7 @@ iframe{
     justify-content: center;
     word-wrap: break-word;
     flex-direction: column;
-    background-color: #605E5E;
+    
     width: 55%;
     align-items: flex-start;
 }
@@ -604,7 +604,7 @@ iframe{
 .txtAuth{
     font-size: 20px;
     font-family:Helvetica, sans-serif;
-    color: #AEE06C;
+    color:#605E5E;
     margin: 20px 0px;
     margin-left: 20px;
 }
